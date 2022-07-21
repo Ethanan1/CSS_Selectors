@@ -171,3 +171,27 @@ pre {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
+/* pseudo class */
+/* selects any a element */
+a:any-link {
+    text-decoration: none;
+}
+
+/* not pseudo class */
+/*
+.page-link {
+    text-decoration: none;
+}
+*/
+
+/* bonus */
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* children of pre */
+pre > a {
+    color: black;
+}
